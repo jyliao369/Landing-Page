@@ -1,0 +1,83 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel = "stylesheet" href = "style.css">
+    <title>Landing Page</title>
+</head>
+
+<body>
+    
+    <header>
+
+        <h1>My New Website</h1>
+    
+        <!-- NAVIGATION BAR GOES HERE -->
+
+        <nav class = navbar>
+            <a href = "">Github</a>
+            <a href = "">Porfolio</a>
+            <a href = "">Image</a>
+            <a href = "#contactInfo">Contact Information</a>
+            <a href = "#contact">Contact Form</a>
+        </nav>
+
+    </header>
+
+    <br><br>
+
+    <!-- Contact Information -->
+    <h2>Contact Information</h2>
+
+    <section id = "contactInfo">
+
+        <ul>
+            <li id = info>Email</li>
+            <li id = info>Portfolio</li>
+            <li id = info>Phone Number</li>
+        </ul>
+
+    </section>
+
+    <br> <hr id = "contact"> <br>
+
+    <!-- Here is the Contact Form  -->
+    <h3>Contact Form</h3>
+    
+    <div id = "container">
+
+        <form action = "action_page.php">
+
+            <label for = "fname"> First Name</label>
+            <input type = "text" id = "fname" name = "firstname" placeholder = "Your Name...">
+
+            <label for = "lname"> Last Name</label>
+            <input type = "text" id = "lname" name = "firstname" placeholder = "Your Last Name...">
+
+            <label for = "email"> E-Mail</label>
+            <input type = "text" id = "email" name = "mail" placeholder = "E-Mail">
+
+            <label for = "phone"> Phone/Cell</label>
+            <input type = "text" id = "phone" name = "phone" placeholder = "Phone/Cell#">
+            
+            <label for = "address"> Address</label>
+            <input type = "text" id = "address" name = "address" placeholder = "Address">
+            
+            <input type = "submit" value = "Send">
+
+        </form>
+
+    </div>
+
+    <br><br><br><br><br><br>
+
+    <footer>Made by Programmer Justin Liao</footer>
+
+</body>
+
+
+
+</html>

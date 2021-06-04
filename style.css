@@ -1,0 +1,107 @@
+body {
+    margin: 0;
+    position: relative;
+    top: 108px;
+    font-family: Arial, Helvetica, sans-serif;
+}
+
+/* CUSTOMIZING THE NAVIGATION BAR */
+header {
+    background-color: darkcyan;
+    position: fixed;
+    top: 0;
+    width: 100%
+}
+
+h1 {
+    position: relative;
+    left: 10px;
+    margin: 10px;
+}
+
+.navbar {
+    list-style-type: none;
+    margin: 0px;
+    padding: 0px;
+    width: 100%; /* DETERMINES THE LENGTH OF THE NAVBAR */
+    overflow: hidden;
+    background-color: darkgrey;
+}
+
+a {
+    float: left;
+    font-size: 20px;
+    color: white;
+    text-align: center;
+    padding: 15px;
+    margin: 0px;
+    text-decoration: none;
+}
+
+a:hover {
+    background-color: grey;
+}
+
+/* THIS IS FOR THE CONTACT INFORMATION */
+.contactInfo {
+    list-style-type: square;
+}
+
+li #id { /* RMEMEBER THAT # IS FOR ID AND . IS FOR CLASSES */
+    display: inline;
+    font-size: 0px;
+    color: black;
+    text-align: center;
+    padding: 0px;
+    margin: 0px;
+    text-decoration: none;
+}
+
+h2, h3{
+    text-align: center;
+    width: 500px;
+    margin: 15px;
+    padding: 0px;
+}
+
+
+
+/* Customizing the CONTACT FORM BOX through the .container class*/
+#container {
+    margin-left: 15px;
+    background-color: #f2f2f2;
+    border:5px solid darkblue;
+    padding: 20px;
+    width: 500px; /* This CHANGES THE SIZE OF THE BOX BUTTON */
+}
+
+input[type=text], select, textarea {
+    width: 100%;    /* Customizes the length of the EACH TEXT BOX*/
+    padding: 12px;
+    border: 1px solid black;
+    border-radius: 4px;
+    box-sizing: border-box;
+    margin-top: 5px;
+    margin-bottom: 10px;
+    resize: vertical;
+}
+  
+input[type=submit] {
+    background-color: #04AA6D;
+    color: white;
+    padding: 12px 20px;
+    border: none;
+    border-radius: 4px;
+    cursor: pointer;
+    width: 20%; /* THIS CHANGES THE SIZE OF THE SUBMIT BUTTON */
+}
+  
+input[type=submit]:hover {
+    background-color: #45a049;
+}
+
+footer {
+    text-align: center;
+    font-size: 15px;
+    font-weight: bold;
+}
