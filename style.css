@@ -11,6 +11,12 @@ body {
 }
 
 /* CUSTOMIZING THE NAVIGATION BAR */
+.logo {
+    display: block;
+    width: 50px;
+    height: 50px;
+}
+
 header {
     background-color: darkcyan;
     position: fixed;
@@ -19,6 +25,7 @@ header {
 }
 
 h1 {
+    display: block;
     position: relative;
     left: 10px;
     margin: 10px;
@@ -56,7 +63,8 @@ a:hover {
 
 /* CUSTOMIZING IMAGE */
 .image {
-    margin: 0%;
+    display: block;
+    margin: 5%;
     margin-left: 140px;
     border: 15px solid maroon;
     padding: 22px;
