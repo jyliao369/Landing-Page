@@ -1,8 +1,13 @@
+* {
+    font-family: Arial, Helvetica, sans-serif;
+    margin: 0;
+    padding: 0;
+}
+
 body {
     margin: 0;
     position: relative;
     top: 108px;
-    font-family: Arial, Helvetica, sans-serif;
 }
 
 /* CUSTOMIZING THE NAVIGATION BAR */
@@ -47,6 +52,18 @@ a:hover {
     list-style-type: square;
 }
 
+
+
+/* CUSTOMIZING IMAGE */
+.image {
+    margin: 0%;
+    margin-left: 140px;
+    border: 15px solid maroon;
+    padding: 22px;
+    width: 170px;
+    height: 170px;
+}
+
 li #id { /* RMEMEBER THAT # IS FOR ID AND . IS FOR CLASSES */
     display: inline;
     font-size: 0px;
@@ -57,10 +74,11 @@ li #id { /* RMEMEBER THAT # IS FOR ID AND . IS FOR CLASSES */
     text-decoration: none;
 }
 
-h2, h3{
+h2, h3, h4{
     text-align: center;
     width: 500px;
     margin: 15px;
+    margin-left: 10px;
     padding: 0px;
 }
 
